@@ -1,0 +1,18 @@
+indicator,time_point,value_percent,population,source,source_id,note
+Teacher AI use,Fall 2023,18,K-12 teachers (all subjects),RAND American Teacher Panel,RRA956-21,Report estimate
+Teacher AI use,Spring 2024,25,ELA/math/science teachers,RAND AIRS,RRA134-25,Report estimate (author reanalysis of public file = 23.5)
+Teacher AI use,Spring 2025,53,ELA/math/science teachers,RAND American Teacher Panel,RRA4180-1,Report estimate
+Teacher AI use,2025-26,68.9,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Weighted public-use estimate
+Clear AI policy coverage,Oct 2025,12.5,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Policy present AND very/extremely clear
+Clear AI policy coverage,Feb 2026,12.8,K-12 teachers,RAND/Gallup ATP (author analysis),GAL0226T,Student-use policy present AND clear
+AI policy present,Dec 2024,29,Public schools,NCES School Pulse Panel,SPP-Dec2024,Written student AI policy (weighted)
+AI policy present,Oct 2025,34.5,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Any AI policy present
+AI policy present,Feb 2026,25.5,K-12 teachers,RAND/Gallup ATP (author analysis),GAL0226T,Student-use policy present
+AI makes teachers' job easier,Oct 2025,72.5,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Much or somewhat easier
+AI makes teachers' job harder,Oct 2025,11.3,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Much or somewhat harder
+AI makes students' learning easier,Oct 2025,22.4,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Much or somewhat easier
+AI makes students' learning harder,Oct 2025,61.9,K-12 teachers,RAND/Gallup ATP (author analysis),GAL1025T,Much or somewhat harder
+High-quality AI tools (majority students of color),Apr 2025,71.3,K-12 teachers,RAND/Gallup ATP (author analysis),GAL0425T,Very/somewhat high quality
+High-quality AI tools (majority white students),Apr 2025,80.8,K-12 teachers,RAND/Gallup ATP (author analysis),GAL0425T,Very/somewhat high quality
+AI taught to students (higher poverty),Dec 2024,39,Public schools,NCES School Pulse Panel,SPP-Dec2024,Weighted estimate
+AI taught to students (lower poverty),Dec 2024,49,Public schools,NCES School Pulse Panel,SPP-Dec2024,Weighted estimate

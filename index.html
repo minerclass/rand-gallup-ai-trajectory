@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teacher AI Adoption vs. Guardrails, 2023–2026 | RAND/Gallup ATP trajectory</title>
+<meta name="description" content="A weighted trajectory of U.S. K-12 teacher AI adoption, policy clarity, perceived effects, and equity gaps from the RAND American Educator Panel and Gallup surveys, 2023-2026.">
+<style>
+  :root{
+    --bg:#fbfbf9; --surface:#ffffff; --surface-1:#f4f3ee; --text:#15140f; --text-2:#55534c; --text-3:#86847c;
+    --border:#e3e1d8; --border-strong:#cbc9bf; --blue:#2a78d6; --amber:#c98500; --green:#199e70; --red:#e34948; --gray:#b4b2a9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#16160f; --surface:#1f1f1a; --surface-1:#26261f; --text:#f5f4ec; --text-2:#c3c2b7; --text-3:#8c8a80;
+      --border:#33332b; --border-strong:#45453b; --blue:#3987e5; --amber:#eda100; --green:#1baf7a; --red:#e66767; --gray:#5f5e5a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:860px; margin:0 auto; padding:3rem 1.25rem 4rem;}
+  .sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);}
+  .eyebrow{font-size:13px; letter-spacing:.04em; text-transform:uppercase; color:var(--text-3); margin:0 0 .5rem;}
+  h1{font-size:30px; font-weight:600; line-height:1.2; margin:0 0 .75rem;}
+  .lede{font-size:17px; color:var(--text-2); margin:0 0 2rem; max-width:62ch;}
+  h2{font-size:19px; font-weight:600; margin:2.5rem 0 2px;}
+  .sub{font-size:13px; color:var(--text-2); margin:0 0 14px;}
+  .kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin:0 0 1rem;}
+  .kpi{background:var(--surface-1); border-radius:10px; padding:1rem 1.1rem;}
+  .kpi .lab{font-size:13px; color:var(--text-2); margin-bottom:6px;}
+  .kpi .num{font-family:Georgia,"Times New Roman",serif; font-size:36px; line-height:1; color:var(--text);}
+  .kpi .foot{font-size:12px; color:var(--text-3); margin-top:6px;}
+  .card{background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:1.4rem 1.5rem; margin:1rem 0;}
+  .legend{display:flex; flex-wrap:wrap; gap:16px; font-size:12.5px; color:var(--text-2); margin-top:8px;}
+  .legend span{display:flex; align-items:center; gap:6px;}
+  .swatch{width:12px; height:12px; border-radius:3px; display:inline-block;}
+  footer{margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--border); font-size:12.5px; color:var(--text-3); line-height:1.7;}
+  footer a{color:var(--blue);}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.9em; background:var(--surface-1); padding:1px 5px; border-radius:4px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Secondary-data context · Dissertation chapters 1–3</p>
+  <h1>Teacher AI use raced ahead of the guardrails, 2023–2026</h1>
+  <p class="lede">A weighted trajectory of U.S. K–12 teacher artificial-intelligence adoption, policy clarity, perceived effects on learning, and equity gaps — drawn from the RAND American Educator Panel and RAND/Gallup American Teacher Panel surveys, with the NCES School Pulse Panel for school-level context.</p>
+
+  <h2 class="sr-only">Key indicators</h2>
+  <div class="kpis">
+    <div class="kpi"><div class="lab">Teacher AI use, 2025–26</div><div class="num">69%</div><div class="foot">up from 18% in 2023</div></div>
+    <div class="kpi"><div class="lab">Clear AI policy coverage</div><div class="num">~13%</div><div class="foot">both 2025 &amp; 2026 waves</div></div>
+    <div class="kpi"><div class="lab">Say AI makes learning harder</div><div class="num">62%</div><div class="foot">for students, Oct 2025</div></div>
+    <div class="kpi"><div class="lab">AI-tool quality equity gap</div><div class="num">9.5 pts</div><div class="foot">by school composition</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Teacher AI use accelerated; functional policy did not</h2>
+    <p class="sub">Adoption vs. clear-policy coverage, U.S. K–12 teachers</p>
+    <div style="position:relative; width:100%; height:280px;">
+      <canvas id="trajChart" role="img" aria-label="Line chart: teacher AI use rose from 18% in Fall 2023 to 25% in Spring 2024, 53% in Spring 2025, and 69% in 2025-26, while clear AI policy coverage stayed near 13% in late 2025 and early 2026.">Teacher AI use: 18% (2023), 25% (2024), 53% (2025), 69% (2025-26). Clear policy coverage: about 13%.</canvas>
+    </div>
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--blue)"></span>Teacher AI use</span>
+      <span><span class="swatch" style="width:16px;height:0;border-top:3px dashed var(--amber);border-radius:0"></span>Clear AI policy coverage</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Easier for teachers, harder for students</h2>
+    <p class="sub">Perceived effect of AI on the job, Oct 2025 (GAL1025T, n=2,012)</p>
+    <div id="effect"></div>
+  </div>
+
+  <div class="card">
+    <h2>The equity gap repeats across independent data sources</h2>
+    <p class="sub">Higher- vs. lower-advantage schools, two datasets nine months apart</p>
+    <div id="equity"></div>
+  </div>
+
+  <footer>
+    <p><strong>Sources.</strong> RAND American Educator Panel reports — Fall 2023 (RRA956-21), Spring 2024 AIRS (RRA134-25), Spring 2025 (RRA4180-1); author analysis of RAND/Gallup American Teacher Panel public-use files GAL1025T (Oct 2025), GAL0425T (Apr 2025), and GAL0226T (Feb 2026); and the NCES School Pulse Panel, December 2024. Full citations in <a href="references/references.md">references</a>.</p>
+    <p><strong>Method note.</strong> Waves use different instruments, question wordings, and teacher subpopulations. Points are <em>convergent directional evidence</em>, not a single longitudinal series. Author estimates are weighted with the public portal weight; standard errors are approximate. See <a href="DATA_ACCESS.md">DATA_ACCESS.md</a> to reproduce. Raw RAND/Gallup microdata are not redistributed here.</p>
+    <p>Miner, M. J. (2026). <em>Teacher AI use raced ahead of the guardrails, 2023–2026.</em> Dissertation secondary-data companion. National Louis University.</p>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function(){
+  var cs = getComputedStyle(document.documentElement);
+  function v(n){ return cs.getPropertyValue(n).trim(); }
+  var muted = v('--text-3') || '#86847c';
+  var dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  var grid = dark ? '#2c2c2a' : '#e3e1d8';
+  new Chart(document.getElementById('trajChart'), {
+    type:'line',
+    data:{ labels:['Fall 2023','Spring 2024','Spring 2025','2025–26'],
+      datasets:[
+        { label:'Teacher AI use', data:[18,25,53,69], borderColor:v('--blue'), backgroundColor:v('--blue'), borderWidth:2, tension:.25, pointRadius:4 },
+        { label:'Clear AI policy coverage', data:[null,null,12.5,12.8], borderColor:v('--amber'), backgroundColor:v('--amber'), borderWidth:2, borderDash:[5,4], tension:0, pointRadius:4 }
+      ]},
+    options:{ responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{display:false}, tooltip:{callbacks:{label:function(c){return c.dataset.label+': '+c.parsed.y+'%';}}}},
+      scales:{ y:{min:0,max:80,ticks:{callback:function(x){return x+'%';},color:muted,font:{size:11}},grid:{color:grid}},
+        x:{ticks:{color:muted,font:{size:11}},grid:{display:false}}}}
+  });
+
+  function stacked(el, rows){
+    var seg=[[v('--green'),'Easier'],[v('--gray'),'No effect'],[v('--red'),'Harder']];
+    var html='';
+    rows.forEach(function(r){
+      html+='<div style="margin-bottom:14px;"><div style="font-size:13px;color:var(--text-2);margin-bottom:5px;">'+r.label+'</div>';
+      html+='<div style="display:flex;height:32px;border-radius:6px;overflow:hidden;gap:2px;">';
+      r.vals.forEach(function(val,i){
+        html+='<div style="width:'+val+'%;background:'+seg[i][0]+';display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff;">'+(val>=9?Math.round(val)+'%':'')+'</div>';
+      });
+      html+='</div></div>';
+    });
+    html+='<div class="legend">';
+    seg.forEach(function(s){ html+='<span><span class="swatch" style="background:'+s[0]+'"></span>'+s[1]+'</span>'; });
+    html+='</div>';
+    el.innerHTML=html;
+  }
+  stacked(document.getElementById('effect'),[
+    {label:"Teachers' own job", vals:[72.5,16.2,11.3]},
+    {label:"Students' learning", vals:[22.4,15.6,61.9]}
+  ]);
+
+  function dumbbell(el, rows){
+    var html='';
+    rows.forEach(function(r){
+      var lo=Math.min(r.a,r.b), hi=Math.max(r.a,r.b);
+      html+='<div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;font-size:13px;color:var(--text-2);margin-bottom:8px;"><span>'+r.label+'</span><span style="color:var(--text-3);">'+(hi-lo).toFixed(1)+' pt gap</span></div>';
+      html+='<div style="position:relative;height:24px;">';
+      html+='<div style="position:absolute;top:11px;left:'+lo+'%;width:'+(hi-lo)+'%;height:2px;background:var(--border-strong);"></div>';
+      html+='<div style="position:absolute;top:6px;left:calc('+r.a+'% - 6px);width:12px;height:12px;border-radius:50%;background:'+v('--red')+';" title="'+r.alab+': '+r.a+'%"></div>';
+      html+='<div style="position:absolute;top:6px;left:calc('+r.b+'% - 6px);width:12px;height:12px;border-radius:50%;background:'+v('--blue')+';" title="'+r.blab+': '+r.b+'%"></div>';
+      html+='<div style="position:absolute;top:-4px;left:'+r.a+'%;transform:translateX(-50%);font-size:11px;color:'+v('--red')+';">'+r.a+'%</div>';
+      html+='<div style="position:absolute;top:-4px;left:'+r.b+'%;transform:translateX(-50%);font-size:11px;color:'+v('--blue')+';">'+r.b+'%</div>';
+      html+='</div></div>';
+    });
+    html+='<div class="legend"><span><span class="swatch" style="border-radius:50%;background:'+v('--red')+'"></span>Higher-need schools</span><span><span class="swatch" style="border-radius:50%;background:'+v('--blue')+'"></span>Lower-need schools</span></div>';
+    el.innerHTML=html;
+  }
+  dumbbell(document.getElementById('equity'),[
+    {label:'High-quality AI tools (Gallup, Apr 2025)', a:71.3,b:80.8, alab:'Majority students of color', blab:'Majority white'},
+    {label:'AI taught to students (School Pulse Panel, Dec 2024)', a:39,b:49, alab:'Higher poverty', blab:'Lower poverty'}
+  ]);
+})();
+</script>
+</body>
+</html>

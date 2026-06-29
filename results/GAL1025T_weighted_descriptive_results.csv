@@ -1,0 +1,43 @@
+section,measure,unweighted_n,weighted_percent,approx_se_pp,denominator
+A. AI adoption,Used AI tools in 2025-26,1985,68.9,1.2,valid Yes/No responses
+A2. AI use frequency (among users),Daily,1383,12.6,1.0,respondents who used AI this year
+A2. AI use frequency (among users),Weekly,1383,44.3,1.5,respondents who used AI this year
+A2. AI use frequency (among users),Monthly,1383,26.5,1.4,respondents who used AI this year
+A2. AI use frequency (among users),Less than monthly,1383,16.7,1.1,respondents who used AI this year
+A2. AI use frequency (among users),Weekly or more often,1383,56.8,1.5,respondents who used AI this year
+B. AI policy presence,Has AI policy (Yes),1987,34.5,1.2,valid responses (Yes/No/Don't know)
+B. AI policy presence,No AI policy,1987,39.7,1.2,valid responses (Yes/No/Don't know)
+B. AI policy presence,Don't know if policy exists,1987,25.8,1.1,valid responses (Yes/No/Don't know)
+B2. Policy clarity,"Clear (very/extremely), among policy-holders",711,36.2,2.0,respondents whose school HAS an AI policy
+B2. Policy clarity,Clear-policy coverage (all valid respondents),1987,12.5,0.8,all valid policy-presence respondents
+C. Perceived effect of AI (easier vs harder),Teachers' job | Easier,1984,72.5,1.1,valid responses
+C. Perceived effect of AI (easier vs harder),Teachers' job | No effect,1984,16.2,0.9,valid responses
+C. Perceived effect of AI (easier vs harder),Teachers' job | Harder,1984,11.3,0.8,valid responses
+C. Perceived effect of AI (easier vs harder),Students' learning | Easier,1986,22.4,1.1,valid responses
+C. Perceived effect of AI (easier vs harder),Students' learning | No effect,1986,15.6,0.9,valid responses
+C. Perceived effect of AI (easier vs harder),Students' learning | Harder,1986,61.9,1.2,valid responses
+D. Support for teachers using AI,Personal support | Support,1986,56.6,1.3,valid responses
+D. Support for teachers using AI,Personal support | Neither,1986,27.5,1.1,valid responses
+D. Support for teachers using AI,Personal support | Oppose,1986,15.9,0.9,valid responses
+D. Support for teachers using AI,School support | Support,1986,53.0,1.3,valid responses
+D. Support for teachers using AI,School support | Neither,1986,29.0,1.2,valid responses
+D. Support for teachers using AI,School support | Oppose,1986,3.3,0.5,valid responses
+D. Support for teachers using AI,School support | Don't know,1986,14.7,0.9,valid responses
+E. Opinion on pace of AI adoption,Too fast,1986,12.1,0.8,valid responses
+E. Opinion on pace of AI adoption,Right pace,1986,42.7,1.3,valid responses
+E. Opinion on pace of AI adoption,Too slow,1986,15.0,0.9,valid responses
+E. Opinion on pace of AI adoption,Don't know,1986,30.1,1.2,valid responses
+"F1. AI use, by grade band",Used AI | Elementary (PK - 5th),750,63.1,2.0,valid within GRADES_TAUGHT
+"F1. AI use, by grade band",Used AI | Middle School (6th - 8th),496,72.7,2.3,valid within GRADES_TAUGHT
+"F1. AI use, by grade band",Used AI | High School (9th - 12th),618,74.4,2.0,valid within GRADES_TAUGHT
+"F2. AI use, by subject","Used AI | Elementary, Special Education",715,66.4,2.0,valid within MAIN_SUBJECT
+"F2. AI use, by subject","Used AI | Language Arts, ESL, non-English languages",440,72.9,2.4,valid within MAIN_SUBJECT
+"F2. AI use, by subject",Used AI | Math and Computer Science,364,67.1,2.6,valid within MAIN_SUBJECT
+"F2. AI use, by subject","Used AI | Sciences, Health, CTE",260,80.5,2.8,valid within MAIN_SUBJECT
+"F2. AI use, by subject","Used AI | Social Sciences, Arts and Music",163,60.0,4.2,valid within MAIN_SUBJECT
+"F3. Believes AI makes students' learning HARDER, by grade band",AI makes learning harder | Elementary (PK - 5th),750,51.0,2.0,valid within GRADES_TAUGHT
+"F3. Believes AI makes students' learning HARDER, by grade band",AI makes learning harder | Middle School (6th - 8th),496,66.0,2.4,valid within GRADES_TAUGHT
+"F3. Believes AI makes students' learning HARDER, by grade band",AI makes learning harder | High School (9th - 12th),618,73.5,2.0,valid within GRADES_TAUGHT
+"F4. School has AI policy, by grade band",Has AI policy | Elementary (PK - 5th),750,24.4,1.8,valid within GRADES_TAUGHT
+"F4. School has AI policy, by grade band",Has AI policy | Middle School (6th - 8th),496,39.4,2.5,valid within GRADES_TAUGHT
+"F4. School has AI policy, by grade band",Has AI policy | High School (9th - 12th),618,47.8,2.3,valid within GRADES_TAUGHT

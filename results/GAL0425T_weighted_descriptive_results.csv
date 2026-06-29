@@ -1,0 +1,20 @@
+section,measure,unweighted_n,weighted_percent,approx_se_pp,denominator
+A. Quality of available AI tools,High quality (very/somewhat),1496,75.8,1.3,teachers for whom AI tools apply (excl. N/A)
+A. Quality of available AI tools,Low quality (somewhat/very),1496,24.2,1.3,teachers for whom AI tools apply (excl. N/A)
+A. Quality of available AI tools,Very high quality,1496,17.3,1.1,teachers for whom AI tools apply (excl. N/A)
+A. Quality of available AI tools,Very low quality,1496,8.0,0.8,teachers for whom AI tools apply (excl. N/A)
+B. Quantity of available AI tools,Not enough,1554,26.1,1.3,teachers for whom AI tools apply (excl. N/A)
+B. Quantity of available AI tools,The right amount,1554,56.3,1.4,teachers for whom AI tools apply (excl. N/A)
+B. Quantity of available AI tools,More than enough,1554,17.6,1.1,teachers for whom AI tools apply (excl. N/A)
+C. AI tools not applicable to role,Quality item | N/A,2145,30.4,1.1,all valid responses incl. N/A
+C. AI tools not applicable to role,Quantity item | N/A,2158,28.7,1.1,all valid responses incl. N/A
+"D1. 'Not enough' AI tools, by school level",Not enough | Elementary,552,27.4,2.1,valid within SCHOOL_LEVEL
+"D1. 'Not enough' AI tools, by school level",Not enough | Middle,367,25.5,2.6,valid within SCHOOL_LEVEL
+"D1. 'Not enough' AI tools, by school level",Not enough | High,568,25.9,2.1,valid within SCHOOL_LEVEL
+"D2. 'Not enough' AI tools, by urbanicity",Not enough | Urban,459,29.2,2.4,valid within URBANICITY
+"D2. 'Not enough' AI tools, by urbanicity",Not enough | Suburban,560,23.6,2.0,valid within URBANICITY
+"D2. 'Not enough' AI tools, by urbanicity",Not enough | Town/Rural,524,26.1,2.2,valid within URBANICITY
+"D3. 'Not enough' AI tools, by school ethnic composition",Not enough | Majority Students of Color,799,28.5,1.8,valid within SCHOOLETHNICCOMPOSITION
+"D3. 'Not enough' AI tools, by school ethnic composition",Not enough | Majority White Students,744,23.2,1.8,valid within SCHOOLETHNICCOMPOSITION
+"D4. High-quality AI tools, by school ethnic composition",High quality | Majority Students of Color,764,71.3,1.9,valid within SCHOOLETHNICCOMPOSITION
+"D4. High-quality AI tools, by school ethnic composition",High quality | Majority White Students,722,80.8,1.7,valid within SCHOOLETHNICCOMPOSITION

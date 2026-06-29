@@ -1,0 +1,26 @@
+# Raw survey microdata — NEVER commit (RAND/Gallup data-use agreement; see DATA_ACCESS.md)
+raw/
+**/raw/
+*.dta
+*.sav
+*.por
+
+# Raw respondent-level portal exports (derived aggregate results in results/ are intentionally tracked)
+*ATP_Portal*.csv
+*_ATP_Portal*.csv
+
+# Credentials / tokens
+*.env
+.env*
+*token*
+*secret*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/

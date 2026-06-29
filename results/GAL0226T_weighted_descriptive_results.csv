@@ -1,0 +1,80 @@
+section,measure,unweighted_n,weighted_percent,approx_se_pp,denominator
+A. Policy presence,Teacher AI use | Has policy (Yes),2030,17.9,1.0,valid responses (Yes/No/Don't know)
+A. Policy presence,Teacher AI use | No policy (No),2030,54.4,1.3,valid responses (Yes/No/Don't know)
+A. Policy presence,Teacher AI use | Don't know if policy exists,2030,27.7,1.2,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI use | Has policy (Yes),2029,25.5,1.1,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI use | No policy (No),2029,43.4,1.3,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI use | Don't know if policy exists,2029,31.1,1.2,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI misuse | Has policy (Yes),2027,17.2,1.0,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI misuse | No policy (No),2027,45.7,1.3,valid responses (Yes/No/Don't know)
+A. Policy presence,Student AI misuse | Don't know if policy exists,2027,37.1,1.3,valid responses (Yes/No/Don't know)
+B. Policy clarity (among those with a policy),Teacher AI use | Clear (very/extremely),378,56.0,2.9,respondents whose school HAS a policy
+B. Policy clarity (among those with a policy),Student AI use | Clear (very/extremely),530,50.3,2.5,respondents whose school HAS a policy
+B. Policy clarity (among those with a policy),Student AI misuse | Clear (very/extremely),378,66.3,2.8,respondents whose school HAS a policy
+B2. Clear-policy coverage (all valid respondents),Teacher AI use | Has a clear policy,2030,10.0,0.8,all valid policy-presence respondents
+B2. Clear-policy coverage (all valid respondents),Student AI use | Has a clear policy,2029,12.8,0.9,all valid policy-presence respondents
+B2. Clear-policy coverage (all valid respondents),Student AI misuse | Has a clear policy,2027,11.4,0.8,all valid policy-presence respondents
+C. Any guidance received (by task),Preparing to teach (planning lessons),1958,55.3,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Making worksheets/assignments/projects,1966,52.8,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Making assessments/quizzes/exit tickets,1963,52.4,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Modifying materials to meet student needs,1964,50.9,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Grading / providing feedback,1931,42.5,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Supplementing instruction (students use AI),1904,42.5,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),One-on-one instruction / tutoring,1894,31.5,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Analyzing student learning/achievement data,1920,35.7,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),"Administrative work (paperwork, emails)",1927,40.6,1.3,valid responses (excl. Not applicable/Blank)
+C. Any guidance received (by task),Getting feedback/coaching on teaching,1916,29.1,1.2,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Preparing to teach (planning lessons),1958,9.3,0.8,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Making worksheets/assignments/projects,1966,8.3,0.7,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Making assessments/quizzes/exit tickets,1963,9.1,0.8,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Modifying materials to meet student needs,1964,7.6,0.7,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Grading / providing feedback,1931,7.9,0.7,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Supplementing instruction (students use AI),1904,7.3,0.7,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),One-on-one instruction / tutoring,1894,4.9,0.6,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Analyzing student learning/achievement data,1920,5.9,0.6,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),"Administrative work (paperwork, emails)",1927,6.7,0.7,valid responses (excl. Not applicable/Blank)
+C2. Formal/written guidance (by task),Getting feedback/coaching on teaching,1916,6.5,0.7,valid responses (excl. Not applicable/Blank)
+D. School stance (among those who received guidance),Preparing to teach (planning lessons) | Encouraged,1068,53.2,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Preparing to teach (planning lessons) | Discouraged,1068,2.3,0.5,respondents who received guidance for this use
+D. School stance (among those who received guidance),Preparing to teach (planning lessons) | Neither,1068,44.5,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making worksheets/assignments/projects | Encouraged,1029,53.6,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making worksheets/assignments/projects | Discouraged,1029,2.9,0.6,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making worksheets/assignments/projects | Neither,1029,43.5,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making assessments/quizzes/exit tickets | Encouraged,1018,51.1,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making assessments/quizzes/exit tickets | Discouraged,1018,3.5,0.7,respondents who received guidance for this use
+D. School stance (among those who received guidance),Making assessments/quizzes/exit tickets | Neither,1018,45.4,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Modifying materials to meet student needs | Encouraged,992,58.3,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Modifying materials to meet student needs | Discouraged,992,2.1,0.5,respondents who received guidance for this use
+D. School stance (among those who received guidance),Modifying materials to meet student needs | Neither,992,39.6,1.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Grading / providing feedback | Encouraged,821,36.2,1.9,respondents who received guidance for this use
+D. School stance (among those who received guidance),Grading / providing feedback | Discouraged,821,10.3,1.2,respondents who received guidance for this use
+D. School stance (among those who received guidance),Grading / providing feedback | Neither,821,53.5,2.0,respondents who received guidance for this use
+D. School stance (among those who received guidance),Supplementing instruction (students use AI) | Encouraged,798,42.0,2.0,respondents who received guidance for this use
+D. School stance (among those who received guidance),Supplementing instruction (students use AI) | Discouraged,798,7.1,1.1,respondents who received guidance for this use
+D. School stance (among those who received guidance),Supplementing instruction (students use AI) | Neither,798,50.9,2.1,respondents who received guidance for this use
+D. School stance (among those who received guidance),One-on-one instruction / tutoring | Encouraged,588,34.9,2.3,respondents who received guidance for this use
+D. School stance (among those who received guidance),One-on-one instruction / tutoring | Discouraged,588,8.1,1.3,respondents who received guidance for this use
+D. School stance (among those who received guidance),One-on-one instruction / tutoring | Neither,588,57.0,2.4,respondents who received guidance for this use
+D. School stance (among those who received guidance),Analyzing student learning/achievement data | Encouraged,670,49.7,2.3,respondents who received guidance for this use
+D. School stance (among those who received guidance),Analyzing student learning/achievement data | Discouraged,670,3.1,0.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),Analyzing student learning/achievement data | Neither,670,47.2,2.3,respondents who received guidance for this use
+D. School stance (among those who received guidance),"Administrative work (paperwork, emails) | Encouraged",755,43.9,2.1,respondents who received guidance for this use
+D. School stance (among those who received guidance),"Administrative work (paperwork, emails) | Discouraged",755,3.5,0.8,respondents who received guidance for this use
+D. School stance (among those who received guidance),"Administrative work (paperwork, emails) | Neither",755,52.6,2.1,respondents who received guidance for this use
+D. School stance (among those who received guidance),Getting feedback/coaching on teaching | Encouraged,555,30.4,2.3,respondents who received guidance for this use
+D. School stance (among those who received guidance),Getting feedback/coaching on teaching | Discouraged,555,6.5,1.2,respondents who received guidance for this use
+D. School stance (among those who received guidance),Getting feedback/coaching on teaching | Neither,555,63.1,2.4,respondents who received guidance for this use
+"E1. Student AI policy exists, by grade band",Has student AI policy | Elementary (PK - 5th),742,18.1,1.6,valid responses within GRADES_TAUGHT
+"E1. Student AI policy exists, by grade band",Has student AI policy | Middle School (6th - 8th),571,28.2,2.2,valid responses within GRADES_TAUGHT
+"E1. Student AI policy exists, by grade band",Has student AI policy | High School (9th - 12th),716,33.4,2.1,valid responses within GRADES_TAUGHT
+"E2. Student AI policy exists, by subject","Has student AI policy | Elementary, Special Education",696,19.6,1.7,valid responses within MAIN_SUBJECT
+"E2. Student AI policy exists, by subject","Has student AI policy | Language Arts, ESL, non-English languages",466,26.0,2.4,valid responses within MAIN_SUBJECT
+"E2. Student AI policy exists, by subject",Has student AI policy | Math and Computer Science,389,26.8,2.5,valid responses within MAIN_SUBJECT
+"E2. Student AI policy exists, by subject","Has student AI policy | Sciences, Health, CTE",264,34.4,3.4,valid responses within MAIN_SUBJECT
+"E2. Student AI policy exists, by subject","Has student AI policy | Social Sciences, Arts and Music",166,35.5,4.0,valid responses within MAIN_SUBJECT
+"E3. Clear student AI policy (among policy-holders), by grade band",Clear student AI policy | Elementary (PK - 5th),138,56.2,4.8,valid responses within GRADES_TAUGHT
+"E3. Clear student AI policy (among policy-holders), by grade band",Clear student AI policy | Middle School (6th - 8th),157,51.1,4.7,valid responses within GRADES_TAUGHT
+"E3. Clear student AI policy (among policy-holders), by grade band",Clear student AI policy | High School (9th - 12th),235,45.3,3.7,valid responses within GRADES_TAUGHT
+"E4. Any guidance on supplementing instruction (task 6), by grade band",Any guidance (task 6) | Elementary (PK - 5th),661,37.8,2.2,valid responses within GRADES_TAUGHT
+"E4. Any guidance on supplementing instruction (task 6), by grade band",Any guidance (task 6) | Middle School (6th - 8th),547,46.0,2.5,valid responses within GRADES_TAUGHT
+"E4. Any guidance on supplementing instruction (task 6), by grade band",Any guidance (task 6) | High School (9th - 12th),696,45.7,2.2,valid responses within GRADES_TAUGHT
