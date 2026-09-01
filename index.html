@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teacher AI Adoption vs. Guardrails, 2023–2026 | RAND/Gallup ATP trajectory</title>
 <meta name="description" content="A weighted trajectory of U.S. K-12 teacher AI adoption, policy clarity, perceived effects, and equity gaps from the RAND American Educator Panel and Gallup surveys, 2023-2026.">
+<link rel="stylesheet" href="https://minerclass.github.io/tokens.css">
 <style>
   :root{
     --bg:#fbfbf9; --surface:#ffffff; --surface-1:#f4f3ee; --text:#15140f; --text-2:#55534c; --text-3:#86847c;
     --border:#e3e1d8; --border-strong:#cbc9bf; --blue:#2a78d6; --amber:#c98500; --green:#199e70; --red:#e34948; --gray:#b4b2a9;
   }
   @media (prefers-color-scheme: dark){
-    :root{ --bg:#16160f; --surface:#1f1f1a; --surface-1:#26261f; --text:#f5f4ec; --text-2:#c3c2b7; --text-3:#8c8a80;
+    /* Only the dark half references the shared tokens: tokens.css defines the
+       dark palette at bare :root, so it lines up here, while the light half
+       above stays local and the page keeps its automatic light/dark switch. */
+    :root{ --bg:var(--mjm-bg,#16160f); --surface:var(--mjm-surface,#1f1f1a); --surface-1:var(--mjm-surface-2,#26261f); --text:var(--mjm-ink,#f5f4ec); --text-2:var(--mjm-muted,#c3c2b7); --text-3:#949289;
       --border:#33332b; --border-strong:#45453b; --blue:#3987e5; --amber:#eda100; --green:#1baf7a; --red:#e66767; --gray:#5f5e5a; }
   }
   *{box-sizing:border-box}
