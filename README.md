@@ -10,14 +10,14 @@ friction** and generative AI.
 ## What this is — and is not
 
 This is the **secondary-data / structural-context strand** of the dissertation. It situates the
-study's bounded case within national patterns. It is **not** evidence from inside the bounded
-case, and it does **not** measure pedagogical friction directly. The surveys were not designed
+study within national patterns. It is **not** evidence from the study itself, and it does
+**not** measure pedagogical friction directly. The surveys were not designed
 to capture noetic, rhetorical, existential, or infrastructural friction; their indicators are
 read as proxies that frame the qualitative work.
 
 Chapter placement: **Chapters 1 and 3** (problem urgency + documented quantitative baseline),
 with reuse in the **Chapter 5** discussion. It is deliberately kept out of Chapter 4, which is
-reserved for bounded-case findings.
+reserved for the study's own findings.
 
 ## Headline findings
 

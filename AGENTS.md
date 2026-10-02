@@ -25,7 +25,7 @@ This repo is **public-facing**. Classify every file before committing:
 
 Keep aligned with the dissertation hubs. Key terms: **pedagogical friction** (noetic,
 rhetorical, existential, infrastructural dimensions); **unproductive success**; **structural
-context** (not "findings"). Secondary data is always *context*, never bounded-case evidence.
+context** (not "findings"). Secondary data is always *context*, never evidence from the study itself.
 Do not imply causal effects or learning outcomes from these descriptive estimates.
 
 ## Data and analysis rules
